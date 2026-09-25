@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bigiron",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "BigIron MCP — US ag/construction/livestock/transportation equipment",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-14942c32cab7e1cd829d3a28b96536c46749d365378815106c980a6893579cc4",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-7b66e4c765acd9a114b782d84d108226075ec366feb90948b6c85e8ed323cf7e",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
