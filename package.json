@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bigiron",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "BigIron MCP — US ag/construction/livestock/transportation equipment auctions from bigiron.com.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f3e9f67ab2533e8a1576c50a79c0f7956acbb1f02bd59ec5b14650e3625a0aff",
-    "sourceCommit": "70a4e816a9195016cd4af92dca2019485d4c3865"
+    "sourceHash": "v1-8e55475e166c87890873e38d3bf862e6dd2bb7af4a6c05456b63c84c762c4549",
+    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
   }
 }

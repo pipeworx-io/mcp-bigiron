@@ -1176,7 +1176,7 @@ const tools: McpToolExport['tools'] = [
   {
     name: 'bigiron_search',
     description:
-      'Search active US ag/construction/livestock/transportation equipment auctions on bigiron.com — a national online timed-auction platform. Returns live listings with current bid, Buy-It-Now asking price (if offered — NOT a sold price), make/model/year, seller, location and auction close time. Sourced from bigiron.com/Search.',
+      'Search active US ag/construction/livestock/transportation equipment auctions on bigiron.com — a national online timed-auction platform. Returns live listings with current bid, Buy-It-Now asking price (if offered — NOT a sold price), make/model/year, seller, location and auction close time. Bids are served through a 5-minute result cache, so the current bid can be up to five minutes old: near the close of an auction treat it as a lower bound, never as the final price. Sourced from bigiron.com/Search.',
     inputSchema: {
       type: 'object' as const,
       properties: {
@@ -1204,7 +1204,7 @@ const tools: McpToolExport['tools'] = [
   {
     name: 'bigiron_lot_detail',
     description:
-      'Full detail for one bigiron.com lot by its URL slug: description, sale status, bid count, make/model/year, seller, location, category and (for active lots) current bid / Buy-It-Now price. Slugs come from bigiron_search or bigiron_sold_search result urls (the part after /Lots/). Sourced from bigiron.com/Lots/{slug}.',
+      'Full detail for one bigiron.com lot by its URL slug: description, sale status, bid count, make/model/year, seller, location, category and (for active lots) current bid / Buy-It-Now price. Slugs come from bigiron_search or bigiron_sold_search result urls (the part after /Lots/). Bids are served through a 5-minute result cache, so the current bid can be up to five minutes old: near the close of an auction treat it as a lower bound, never as the final price. Sourced from bigiron.com/Lots/{slug}.',
     inputSchema: {
       type: 'object' as const,
       properties: {
